@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+}
+
+.br-mobile {
+    display: none;
+}
+
+h1, p {
+    text-transform: initial;
+} 
+
+h2, input {
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Inconsolata', monospace;
+}
+
+h1, p, input {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.header {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    margin: 20px 0 0 40px;
+}
+
+.container {
+    flex-direction: row;
+    align-items: flex-start;
+    height: auto;
+    width: 100%;
+}
+
+img {
+    height: 400px;
+    width: 500px;
+}
+
+.sub-container {
+    margin: 100px 40px 20px 0;
+}
+
+.sub-container-1 {
+    margin: 100px 0 20px 40px ;
+}
+
+h1 {
+    margin: 5px 0 0 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    color: #333333;
+}
+
+p {
+    margin: 10px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+}
+
+input {
+    margin-top:20px ;
+    height: 70px;
+    width: 220px;
+    font-size: 17px;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 875px) {
+
+    .header {
+        height: 40px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-width: 450px;
+    }
+
+    h2 {
+        margin: 40px 0 0 40px;
+        font-family: 'Inconsolata', monospace;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 25px;
+        letter-spacing: -0.08em;
+        text-transform: uppercase;
+    }
+
+    .sub-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: auto;
+        margin: auto;
+    }
+
+    img {
+        height: 350px;
+        width: 400px;
+        margin: 40px ;
+    }
+
+    .sub-container-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .div-texto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        margin: 0 10px; 
+    }
+
+    h1 {
+        font-family: 'Space Grotesk', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 71px;
+        letter-spacing: -0.035em;
+        color: #333333;
+        margin: 10px 20px;
+        text-transform: initial;
+    }
+
+    .br-mobile {
+        display: flex;
+    }
+
+    br {
+        display: none;
+    }
+
+    p {
+        font-family: 'Space Grotesk', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+        letter-spacing: -0.000em;
+        margin: 20px auto;
+        color: #4F4F4F;
+        text-transform: initial;
+    }
+
+    .div-boton {
+        display: flex;
+        height: auto;
+        width: 100%;
+        margin: auto;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    input {
+        height: 70px;
+        width: 220px;
+        font-size: 17px;
+        text-transform: uppercase;
+        background-color: black;
+        color: white;
+    }
+    
+}
